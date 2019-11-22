@@ -2,34 +2,43 @@
   <html>
     <head>
       <title>"My webpage title"</title>
+      <link rel="stylesheet" href="styles.css">
+        <style>
+        table {
+          border: 2px dashed green;
+          border-collapse: collapse;
+          width: 42.0%;
+              }
+        th, td {
+          border: 2px solid black;
+        }
+        th {
+          background-color: darkgray;
+        }
+        .boom {
+          font-size: 150%;
+        }
+        #poon {
+          color:purple;
+        }
+                </style>
     </head>
         <body>
-          <div>
-            <img src="lion.jpg" height="500" width="700">
-              <h1>I want this chicken</h1>
-              <table>
-                <tr>
-                  <th>First</th>
-                  <th>Last</th>
-                  <th>Address</th>
-                </tr>
-                <tr>
-                  <td>Jess</td>
-                  <td>Boom</td>
-                  <td>Dijbouti</td>
-                </tr>
-              </table>
-
-              <ul>
-                  <li>Chicken Sandwich</li>
-                  <li>5 dollar biggie bag</li>
-                  <li>bacon egg and chees</li>
-              </ul>
-              <ol>
-                  <li>Chicken Sandwich</li>
-                  <li>5 dollar biggie bag</li>
-                  <li>bacon egg and chees</li>
-              </ol>
-          </div>
+            <img src="lion.jpg" height="150%" width="700">
+              <h1 class="boom">I want <span id ='poon'>this</span> chicken</h1>
+              <h2 class="boom">I want <span>this</span> chicken</h2>
+              <h3 class="boom">I want <span>this</span> chicken</h3>
+                <table>
+                  <tr>
+                    <th>First</th>
+                    <th>Last</th>
+                    <th>Address</th>
+                  </tr>
+                  <tr>
+                    <td>Jess</td>
+                    <td>Boom</td>
+                    <td>Dijbouti</td>
+                  </tr>
+                </table>
         </body>
   </html>
